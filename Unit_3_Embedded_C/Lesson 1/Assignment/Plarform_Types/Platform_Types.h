@@ -1,8 +1,8 @@
 /*
  * Platform_Types.h
  *
- * Created on : Dec 22, 2021
- *     Author : Mina Karam
+ * Created on : Aug 28, 2023
+ *     Author : hamad sayed
  */
 
 #ifndef PLATFORM_TYPES_H_
@@ -15,7 +15,6 @@
 
 
 typedef _Bool                       boolean;
-typedef char                        char_t;
 typedef signed char                 sint8_t;
 typedef unsigned char               uint8_t;
 typedef signed short                sint16_t;
@@ -25,7 +24,6 @@ typedef unsigned int                uint32_t;
 typedef signed long long int        sint64_t;
 typedef unsigned long long int      uint64_t;
 
-typedef volatile char                       vchar_t;
 typedef volatile signed char                vsint8_t;
 typedef volatile unsigned char              vuint8_t;
 typedef volatile signed short               vsint16_t;
